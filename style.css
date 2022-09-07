@@ -1,0 +1,134 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.fila1{
+    border-bottom: 2px solid rgb(226, 245, 243);
+}
+
+.logo{
+   
+}
+
+.imgLogo{
+    height: 8rem;
+    width: 8rem;
+}
+
+.cologo{
+    display: flex;
+    justify-content: center; 
+}
+
+.padre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1{
+    font-size: 67px;
+    
+}
+
+.logPerfil{
+    height: 3.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-item{
+    text-align: center;
+    background-color: #343A40;
+    font-weight: 400;
+    font-size: 25px;
+      
+    
+}
+.le{
+    color: rgb(255, 255, 255) !important;
+}
+.nav-item:hover{
+    background-color: rgb(75, 82, 82);
+}
+
+.imgs{
+    height: 300px;
+}
+
+.fila3{
+    margin-top: 5px;
+}
+
+/*
+        @ medias querys
+*/
+
+@media all and (max-width: 1200px) {
+
+    .h1{
+        font-size: 56px;
+    }
+
+}
+
+@media all and (max-width: 992px) {
+    .h1{
+        font-size: 40px;
+    }
+    .logPerfil{
+        height: 3rem;
+    }
+
+}
+
+
+@media all and (max-width: 768px) {
+    .h1{
+        font-size: 30px;
+    }
+    .logPerfil{
+        height: 2.5rem;
+    }
+    
+    .imgLogo{
+        width: 6rem;
+        height: 6rem;
+    }
+
+}
+
+@media all and (max-width: 576px) {
+    .h1{
+        font-size: 21px;
+    }
+ 
+    .imgLogo{
+        width: 4rem;
+        height: 4rem;       
+    }
+
+    .logPerfil{
+        height: 2.5rem;
+    }
+}
+
+@media all and (max-width: 398px) {
+    .h1{
+        font-size: 18px;
+    }
+    
+    .imgLogo{
+        width: 3rem;
+        height: 3rem;      
+    }
+
+    .logPerfil{
+        height: 1.8rem;
+    }
+
+
+}
