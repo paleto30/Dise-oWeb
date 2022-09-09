@@ -1,16 +1,15 @@
 
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
+
 
 .fila1{
     border-bottom: 2px solid rgb(226, 245, 243);
-}
-
-.logo{
-   
 }
 
 .imgLogo{
@@ -31,7 +30,8 @@
 
 .h1{
     font-size: 67px;
-    
+    font-weight: bold;
+    color: #3d648d;
 }
 
 .logPerfil{
@@ -45,23 +45,48 @@
     background-color: #343A40;
     font-weight: 400;
     font-size: 25px;
-      
-    
+    height: 100%;
 }
+
 .le{
     color: rgb(255, 255, 255) !important;
 }
 .nav-item:hover{
-    background-color: rgb(75, 82, 82);
-}
-
-.imgs{
-    height: 300px;
+    background-color: rgb(75, 80, 82);
+    border-bottom: 2px solid #45a6e7;
+    /*border-top: 1px solid #45a6e7;*/
 }
 
 .fila3{
     margin-top: 5px;
 }
+
+.banner{
+    background-color: rgb(255, 255, 255); 
+    min-height: 600px;
+    max-height: 600px;
+    text-align: center;
+    margin-top: 5px;  
+}
+
+.img-baner{
+    max-height: 600px;
+    min-height: 600px;
+    max-width: 80%;
+    min-width: 80%;
+}
+
+.descrip{
+    font-size: 30px;
+}
+
+.jumbotron{
+    background-color: rgba(52, 104, 158, 0.9);
+    color: #ffffff;
+  
+}
+
+ 
 
 /*
         @ medias querys
@@ -73,6 +98,18 @@
         font-size: 56px;
     }
 
+    .banner{
+        min-height: 440px;
+        max-height: 440px;
+    }
+    .img-baner{
+        max-height: 440px;
+        min-height: 440px;
+    }
+    .jumbo-titulo{
+        font-size: 60px;
+    }
+
 }
 
 @media all and (max-width: 992px) {
@@ -81,6 +118,15 @@
     }
     .logPerfil{
         height: 3rem;
+    }
+    .banner{
+        min-height: 340px;
+        max-height: 340px;
+    }
+    .img-baner{
+        max-height: 340px;
+        min-height: 340px;
+        
     }
 
 }
@@ -98,6 +144,9 @@
         width: 6rem;
         height: 6rem;
     }
+    .jumbo-titulo{
+        font-size: 40px;
+    }
 
 }
 
@@ -114,6 +163,16 @@
     .logPerfil{
         height: 2.5rem;
     }
+
+    .nav-item{
+        font-size: 20px;
+    }
+    .jumbo-titulo{
+        font-size: 28px;
+    }
+    .descrip{
+        font-size: 25px;
+    }
 }
 
 @media all and (max-width: 398px) {
@@ -128,6 +187,19 @@
 
     .logPerfil{
         height: 1.8rem;
+    }
+    .banner{
+        min-height: 220px;
+        max-height: 220px;
+    }
+    .img-baner{
+        max-height: 220px;
+        min-height: 220px;
+        max-width: 100%;
+        
+    }
+    .descrip{
+        font-size: 18px;
     }
 
 
