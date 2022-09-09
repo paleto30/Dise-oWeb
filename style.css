@@ -81,9 +81,14 @@
 }
 
 .jumbotron{
-    background-color: rgba(52, 104, 158, 0.9);
+    background-color: rgba(52, 104, 158, 0.7);
     color: #ffffff;
   
+}
+
+.cards{
+    display: flex;
+    justify-content: center !important;
 }
 
  
