@@ -90,6 +90,26 @@
     display: flex;
     justify-content: center !important;
 }
+.cd-team{
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+.cd-service{
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+
+.h11{
+    font-size: 67px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.h111{
+    font-size: 67px;
+    font-weight: bold;
+    color: #3d648d;
+}
+
 
  
 
@@ -206,6 +226,5 @@
     .descrip{
         font-size: 18px;
     }
-
 
 }
