@@ -1,0 +1,17 @@
+[
+    {   
+        "servicio":"Domicilios",
+        "img":"img/undraw_Order_delivered_re_v4ab.png",
+        "descripcion":"Ofrecemos Nuestros productos a domicilio, realiza tu pedido en linea, ingresa la diereccion y llegara hasta tu casa"
+    },
+    {
+        "servicio":"Servicio Diario",
+        "img":"img/undraw_eating_together_re_ux62.svg",
+        "descripcion":"Nuestra casa siempre esta abierta para que vengas y disfrutes de nuestros platos, y un servicio de calidad."
+    },
+    {
+        "servicio":"Eventos especiales",
+        "img":"img/undraw_special_event_4aj8.png",
+        "descripcion":"En nuestra casa siempre contaras con un espacio donde podras realizar reuniones de trabajo, reuniones familiares, o celebraciones especiales con tus seres queridos."
+    }
+]

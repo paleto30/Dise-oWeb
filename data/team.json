@@ -1,0 +1,18 @@
+[
+    {
+        "seccion":"Cocina",
+        "image":"img/multiethnic-male-cooks-standing-in-restaurant-professional-kitchen-with-arms-crossed-while-preparing-ingredients-for-dish-culinary-experts-wearing-chef-hats-while-standing-near-cooking-station.jpg",
+        "descripcion":"Cocina de alta calidad, contamos con un equipo de cocina profesional, dedicados a la preparacion de platos Artesanales y saludables para que nuestros clientes cuiden su salud."
+    },
+    {
+        "seccion":"Servicio al cliente",
+        "image":"img/happy-waiter-serving-food-to-guest-while-wearing-protective-face-mask-and-gloves-in-pub.jpg",
+        "descripcion":"Nuestros chicos de servicio son quienes nos garantizan que nuestros clientes disfruten de una atencion inigualable, ellos siempre estan con la mejor actitud y atentos a cualquier peticion de nuestros apreciados clientes."
+    },
+    {
+        "seccion":"Repartos",
+        "image":"img/food-delivery-boy-delivering-food-on-scooter.jpg",
+        "descripcion":"Contamos con un equipo de Repartos, con mas de 20 integrantes, para que tu comida siempre llegue a tiempo y en las mejores condiciones." 
+    }
+
+]

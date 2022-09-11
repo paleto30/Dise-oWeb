@@ -1,0 +1,27 @@
+[
+    {
+        "image": "img/pexels-pixabay-220453.jpg",
+        "nombre":"Andres Galvis",
+        "opinion": "Excelente lugar para compartir en familia, la comida es exquisita y el servicio es excelente, un lugar recomendado 100%",
+        "fecha": "Last updated 3 mins ago." 
+    },
+    {
+        "image": "img/pexels-andrea-piacquadio-774909.jpg",
+        "nombre":"Angie Carreño",
+        "opinion": "Me gusta mucho porque hay gran variedad de platos para elegir, la atencion es muy buena, el tiempo de espera es muy poco , y la comida es deliciosa.",
+        "fecha": "Last updated 1 days ago"
+    },
+    {
+        "image": "img/pexels-pixabay-38554.jpg",
+        "nombre":"Milena Burgos",
+        "opinion": "Es mi lugar favorito para salir a cenar, pero no solo eso sino que tambien puedes llevar tu laptop y trabajar si necesitas y el servicio siempre es muy especial con los clientes.",
+        "fecha": "Last updated 30 mins ago"
+    },
+    {
+        "image": "img/pexels-italo-melo-2379004.jpg",
+        "nombre":"Felipe Gomez",
+        "opinion": "Es excelentente, considero que es un lugar en donde he tenido una de las mejores experiencias en cuanto a la calidad del servicio y de la comida. personalmente muy recomendado.",
+        "fecha": "Last updated 14 mins ago"
+    }
+
+]
