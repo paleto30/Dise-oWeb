@@ -41,7 +41,7 @@
                 </div>
                 <div class="col-2 padre">
                     <div class="perfil">
-                        <a href="#" id="login" class="btn">
+                        <a href="#modalIngreso" id="login" class="btn btnIn" data-toggle="modal">
                             <img src="img/usuario.png" class="logPerfil" alt="" >
                         </a>
                         
@@ -80,44 +80,190 @@
         </header >
     </div>
 
+
+
+    <!--
+        ========================== MODAL INGRESO ==========================================================================================   
+    -->
+
+    <div class="modal" id="modalIngreso">
+        <div class="modal-dialog modal-">
+          <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+              <h4 class="modal-title">Ingresar</h4>
+              <button type="button" class="close text-white" data-dismiss="modal">×</button>
+            </div>
+            <div class="modal-body">
+                <!--=====================================
+              INGRESO CON REDES SOCIALES
+              ======================================-->
+                <div class="d-flex">
+                  <div class="px-2 flex-fill">
+                      <p class="p-2 bg-primary text-center text-white">
+                          <i class="fab fa-facebook"></i>
+                          Ingreso con Facebook
+                      </p>
+                  </div>
+                  <div class="px-2 flex-fill">
+                      <p class="p-2 bg-danger text-center text-white">
+                          <i class="fab fa-google"></i>
+                          Ingreso con Google
+                      </p>
+                  </div>
+                </div>
+                <!--=====================================
+              INGRESO DIRECTO
+              ======================================-->
+              <hr class="mt-0">
+              <form>
+                  <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">
+                            <i class="far fa-envelope"></i>
+                        </span>
+                      </div>
+                      <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">
+                          <i class="fas fa-unlock-alt"></i>
+                        </span>
+                      </div>
+                      <input type="password" class="form-control" placeholder="Contraseña">
+                    </div>
+                  <input type="submit" class="btn btn-dark btn-block" value="Ingresar">
+              </form>
+            </div>
+            <div class="modal-footer">
+              ¿No tiene una cuenta registrada? | 
+              <strong>
+                  <a href="#modalRegistro" data-toggle="modal" data-dismiss="modal">
+                      Registrarse
+                  </a>
+              </strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+    
+    <!--
+        ===================================================================================================================================
+        modal del registro
+    -->
+
+    <div class="modal" id="modalRegistro">
+        <div class="modal-dialog ">
+          <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+              <h4 class="modal-title">Registarse</h4>
+              <button type="button" class="close text-white" data-dismiss="modal">×</button>
+            </div>
+            <div class="modal-body">      
+                <!--=====================================
+              INGRESO CON REDES SOCIALES
+              ======================================-->
+
+                <div class="d-flex">
+                  <div class="px-2 flex-fill">
+                      <p class="p-2 bg-primary text-center text-white">
+                          <i class="fab fa-facebook"></i>
+                          Ingreso con Facebook
+                      </p>
+                  </div>
+                  <div class="px-2 flex-fill">
+                      <p class="p-2 bg-danger text-center text-white">
+                          <i class="fab fa-google"></i>
+                          Ingreso con Google
+                      </p>
+                  </div>
+                </div>
+                <!--=====================================
+              REGISTRO DIRECTO
+              ======================================-->
+      
+              <hr class="mt-0">
+              <form>
+                  <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">
+                            <i class="far fa-user"></i>
+                        </span>
+                      </div>
+                      <input type="text" class="form-control" placeholder="Nombre">
+                    </div>
+                  <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">
+                            <i class="far fa-envelope"></i>
+                        </span>
+                      </div>
+                      <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">
+                          <i class="fas fa-unlock-alt"></i>
+                        </span>
+                      </div>
+                      <input type="password" class="form-control" placeholder="Contraseña">
+                    </div>
+                  <input type="submit" class="btn btn-dark btn-block" value="Registrarse">
+              </form>
+            </div>
+            <div class="modal-footer">             
+                ¿Ya tienes una cuenta registrada? |      
+              <strong>     
+                  <a href="#modalIngreso" data-toggle="modal" data-dismiss="modal">
+                      Ingresar
+                  </a>     
+              </strong>      
+            </div>      
+          </div>     
+        </div>      
+      </div>
+
+
+
     <!--
         ===========================================================================================================================
         cuerpo de la pagina 
-
     -->
 
     <div class="container-fluid mb-5">
-        <div class="row mb-3">
-            <div class="col-12 p-0 mt-5">
-                <div class="container-fluid">
-                    <h1 class="Servicios text-center display-4 jumbo-titulo h111">Productos</h1>
-                </div>
-            </div>
-        </div>
-             <!-- seccion de platos ===================================================================================================
-                -->
-        <div class="container">
-            <div class="row my-4" id="food">
-                <!-- aqui van los platos-->
-            </div>
-        </div>
 
-        <div class="row mb-3">
-            <div class="col-12 p-0 mt-5">
-                <div class="container-fluid">
-                    <h1 class="Servicios text-center display-4 jumbo-titulo h111">bebidas</h1>
-                </div>
-            </div>
-        </div>
-             <!-- seccion de bebidas===================================================================================================
+             <!-- seccion de post ===================================================================================================
                 -->
         <div class="container">
-            <div class="row my-4" id="drink">
-                <!-- aqui van las bebidas-->
-            </div>
+            <div class="row my-4" id="post">
+                <!-- aqui van los post-->
+                  <div class="card">
+                    <div class="card-body">
+                      <h3 class="card-title">Semana de promocion pizza de piña</h3>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <p class="card-text">Barlovento esta de promocion, esta semana desde el 12 de septiembre hasta el 18 de septiembre, si compras dos pizzas, la segunda te queda a mitad de precio y te incluimos una bebida gratis, visitanos y disfruta de nuestra promoción.</p>
+                      
+                    </div>
+                    <img src="imgP/piña.jpg" class="card-img-bottom" alt="...">
+                    <div class="card-text mt-3 mb-3 ml-5 d-flex">
+                       <div class="btn btn-info mr-3 p-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-up-fill" viewBox="0 0 16 16">
+                                <path d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a9.84 9.84 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733.058.119.103.242.138.363.077.27.113.567.113.856 0 .289-.036.586-.113.856-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.163 3.163 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16H8c-.605 0-1.07-.081-1.466-.218a4.82 4.82 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z"/>
+                            </svg>
+                       </div>
+                       <div class="btn btn-danger mr-3 p-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-down-fill" viewBox="0 0 16 16">
+                                <path d="M6.956 14.534c.065.936.952 1.659 1.908 1.42l.261-.065a1.378 1.378 0 0 0 1.012-.965c.22-.816.533-2.512.062-4.51.136.02.285.037.443.051.713.065 1.669.071 2.516-.211.518-.173.994-.68 1.2-1.272a1.896 1.896 0 0 0-.234-1.734c.058-.118.103-.242.138-.362.077-.27.113-.568.113-.856 0-.29-.036-.586-.113-.857a2.094 2.094 0 0 0-.16-.403c.169-.387.107-.82-.003-1.149a3.162 3.162 0 0 0-.488-.9c.054-.153.076-.313.076-.465a1.86 1.86 0 0 0-.253-.912C13.1.757 12.437.28 11.5.28H8c-.605 0-1.07.08-1.466.217a4.823 4.823 0 0 0-.97.485l-.048.029c-.504.308-.999.61-2.068.723C2.682 1.815 2 2.434 2 3.279v4c0 .851.685 1.433 1.357 1.616.849.232 1.574.787 2.132 1.41.56.626.914 1.28 1.039 1.638.199.575.356 1.54.428 2.591z"/>
+                            </svg>
+                       </div>
+                    </div>
+                </div>
+             </div>   
         </div>
     </div>
-
+        
  <!-- seccion de footer===================================================================================================
     -->
     <div class="container-fluid">

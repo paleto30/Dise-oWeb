@@ -128,12 +128,17 @@
     border: none;
 }
 .iconos:hover{
-    width: 45px;
-    height: 45px;
+    width: 38px;
+    height: 38px;
 }
 
 .btnIn:hover{
     background-color: #c3d5e0;
+}
+
+.btnLik:hover{
+    width: 32px;
+    height: 32px;
 }
 
  

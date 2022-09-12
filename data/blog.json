@@ -1,30 +1,33 @@
 [
     {
-        "nom:":"Jamaica",
-        "img":"imgP/jamaica.jpg"
+        "post":"Semana de promocion pizza de piña",
+        "time":"publicado hace 3h",
+        "text":"Barlovento esta de promocion, esta semana desde el 12 de septiembre hasta el 18 de septiembre, si compras dos pizzas, la segunda te queda a mitad de precio y te incluimos una bebida gratis, visitanos y disfruta de nuestra promoción.",
+        "img":"imgP/piña.jpg"
     },
     {
-        "nom:":"Cerezada",
-        "img":"imgP/cereza.jpg"
+        "post":"Presentacion de Artista:  Pilar Cabrera.",
+        "time":"publicado hace 6h",
+        "text":"El dia 23 de septiembre a las 7 pm se estara presentando en nuestra casa un artista de la ciudad de bogota, Pilar cabrera  vendara a regalarnos su arte. la entrada es libre, solo se paga el consumo.",
+        "img":"img/FOTO1.jpg"
     },
     {
-        "nom:":"Coco",
-        "img":"imgP/coco.jpg"
+        "post":"Cambio de nuestro menu.",
+        "time":"publicado hace 1 dia",
+        "text":"En Barlovento cambiamos de carta o actualizamos la carta cada 4 meses, y este fin de mes habra una nueva carta con nuevos platos para que nuestros cleintes disfruten de nuestras especialidades. cordialmente invitados a la inaguracion  de la nueva carta, los esperamos.",
+        "img":"img/Menu-ecologico.jpg"
     },
     {
-        "nom:":"Hierbabuena",
-        "img":"imgP/buena.jpg"
+        "post":"Se aproxima Octubre y tendremos un concurso de disfraces.",
+        "time":"publicado hace 2 dia",
+        "text":"En el mes de octubre tendremos un concurso de disfraces el dia lunes 31, a todas las personas que vengan Barlovento ese dia disfrazados se les tomara una foto y se publicara en instagram por una semana y aquella foto que consiga mas likes, sera la ganadora del premio.",
+        "img":"img/disfraz.jpg"
     },
     {
-        "nom:":"tropical",
-        "img":"imgP/tropical.jpg"
-    },
-    {
-        "nom:":"mango",
-        "img":"imgP/lulo.jpg"
-    },
-    {
-        "nom:":"lulo",
-        "img":"imgP/lulo.jpg"
+        "post":"Barlovento ahora presta el servicio para Reuniones laborales.",
+        "time":"publicado hace 3 dia",
+        "text":"Si eres un empresario y necesitas reunirte con tus socios y tus empleados para tocar temas importante, en Barlovento te brindamos el espacio, puedes reservar el dia y cuadramos que tipo de comida quieres para los asistentes.",
+        "img":"img/reunion.jpg"
     }
+   
 ]
