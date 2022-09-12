@@ -1,0 +1,32 @@
+[
+    {   
+        "servicio":"Domicilios",
+        "img":"img/undraw_Order_delivered_re_v4ab.png",
+        "descripcion":"Ofrecemos Nuestros productos a domicilio, realiza tu pedido en linea, ingresa la diereccion y llegara hasta tu casa"
+    },
+    {
+        "servicio":"Servicio Diario",
+        "img":"img/undraw_eating_together_re_ux62.svg",
+        "descripcion":"Nuestra casa siempre esta abierta para que vengas y disfrutes de nuestros platos, y un servicio de calidad."
+    },
+    {
+        "servicio":"Eventos especiales",
+        "img":"img/undraw_special_event_4aj8.png",
+        "descripcion":"En nuestra casa siempre contaras con un espacio donde podras realizar reuniones familiares, o celebraciones especiales con tus seres queridos."
+    },
+    {   
+        "servicio":"Espacio para Artistas",
+        "img":"img/undraw_Compose_music_re_wpiw.png",
+        "descripcion":"Si eres artista musical y necesitas un lugar para presentarte, en nuestra casa te brindamos el espacio, comunicate con nosotros."
+    },
+    {
+        "servicio":"Eventos privados",
+        "img":"img/undraw_Having_fun_re_vj4h .png",
+        "descripcion":"Reserva toda nuestra casa para tus eventos privados como reuniones laborales, Matrimonios, Fiestas, etc... "
+    },
+    {
+        "servicio":"Espacio para Talleres",
+        "img":"img/undraw_Educator_re_ju47.png",
+        "descripcion":"Te ofrecemos nuestra casa para que realices reuniones de tipo educativo, en las cuales quieras dictar un Taller con un grupo limitado de personas"
+    }
+]

@@ -118,6 +118,14 @@
     align-items: center;
 }
 
+.ico{
+    border: none;
+}
+.iconos:hover{
+    width: 45px;
+    height: 45px;
+}
+
  
 
 /*
