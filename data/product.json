@@ -3,96 +3,95 @@
 
         {
             "nom":"Pizza de carnes",
-            "img":"",
+            "img":"imgP/salami.jpg",
             "ingred":"Carne molidad, chorizo, salami, queso"
         },
         {
             "nom":"Pizza de mar",
-            "img":"",
+            "img":"imgP/mar.jpg",
             "ingred":"Camarones,palmitos,cebolla roja, tocineta, oregano , queso"
         },
         {
-            "nom":"Piza vegetariana",
-            "img":"",
+            "nom":"Pizza vegetariana",
+            "img":"imgP/vegetar.jpg",
             "ingred":"Zanahoria,zucchini, cebolla, pimenton, champiñones"
         }
         ,
         {
-            "nom":"Piza Hawaiana",
-            "img":"",
+            "nom":"Pizza Hawaiana",
+            "img":"imgP/piña.jpg",
             "ingred":"Piña caramelizada, jamon ahumado, queso"
         }
         ,
         {
-            "nom":"Piza Azteca",
-            "img":"",
+            "nom":"Pizza Azteca",
+            "img":"imgP/mex.jpg",
             "ingred":"carne molida,maiz, jalapeños,pimentonm, queso, nachos"
         }
         ,
         {
-            "nom":"Piza Colombiana",
-            "img":"",
+            "nom":"Pizza Colombiana",
+            "img":"imgP/colom.jpg",
             "ingred":"carne desmechada, maduro frito,maiz,chorizo, queso"
         }
         ,
         {
-            "nom":"Piza pollo-jamon",
-            "img":"",
+            "nom":"Pizza pollo-jamon",
+            "img":"imgP/jamon.jpg",
             "ingred":"pollo, jamon ahumado, queso"
         }
         ,
         {
-            "nom":"Piza Bocadillo",
-            "img":"",
+            "nom":"Pizza Bocadillo",
+            "img":"imgP/dillo.jpg",
             "ingred":"queso, bocadillo, masa"
         }
         ,
         {
             "nom":"Sandwich de pollo",
-            "img":"",
+            "img":"imgP/sand2.png",
             "ingred":"lechuga, tomate, pan, salsa de la casa , pollo cremoso, jamon, queso"
         }
         ,
         {
             "nom":"lasaña mixta",
-            "img":"",
+            "img":"imgP/lasana.jpeg",
             "ingred":"carne molida, pollo, chorizo, champiñones, queso"
         }
         ,
         {
             "nom":"Sandwich de de carne",
-            "img":"",
+            "img":"imgP/sand1.jpg",
             "ingred":"pan, carne , lechuga , tomate ,queso, jamon"
         }
     ],
-
     "drink":[
         {
-            "nomb:":"Jamaica",
+            "title":"Jamaica",
             "img":"imgP/jamaica.jpg"
         },
         {
-            "nomb:":"Cerezada",
+            "title":"Cerezada",
             "img":"imgP/cereza.jpg"
         },
         {
-            "nomb:":"Coco",
+            "title":"Coco",
             "img":"imgP/coco.jpg"
         },
         {
-            "nomb:":"Hierbabuena",
+            "title":"Hierbabuena",
             "img":"imgP/buena.jpg"
         },
         {
-            "nomb:":"tropical",
+            "title":"tropical",
             "img":"imgP/tropical.jpg"
         },
         {
-            "nomb:":"mango",
-            "imgb":"imgP/mango.jpg"
+            "title":"mango",
+            "img":"imgP/mango.jpg"
         },
         {
-            "nomb:":"lulo",
+            "title":"lulo",
             "img":"imgP/lulo.jpg"
         }
     ]

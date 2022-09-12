@@ -1,0 +1,30 @@
+[
+    {
+        "nom:":"Jamaica",
+        "img":"imgP/jamaica.jpg"
+    },
+    {
+        "nom:":"Cerezada",
+        "img":"imgP/cereza.jpg"
+    },
+    {
+        "nom:":"Coco",
+        "img":"imgP/coco.jpg"
+    },
+    {
+        "nom:":"Hierbabuena",
+        "img":"imgP/buena.jpg"
+    },
+    {
+        "nom:":"tropical",
+        "img":"imgP/tropical.jpg"
+    },
+    {
+        "nom:":"mango",
+        "img":"imgP/lulo.jpg"
+    },
+    {
+        "nom:":"lulo",
+        "img":"imgP/lulo.jpg"
+    }
+]

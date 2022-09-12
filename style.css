@@ -103,7 +103,7 @@
 .cd-pro{
     border-radius: 10px;
     margin-bottom: 2rem;
-    box-shadow: inset 1px -1px 1px 1px rgba(0, 0, 0, 0.4) ;
+    box-shadow:  -1px 1px 1px 1px rgba(0, 0, 0, 0.4) ;
 }
 
 .h11{
