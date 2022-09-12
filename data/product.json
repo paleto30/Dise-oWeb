@@ -68,33 +68,32 @@
 
     "drink":[
         {
-            "titulo:":"Jamaica",
+            "nomb:":"Jamaica",
             "img":"imgP/jamaica.jpg"
         },
         {
-            "titulo:":"Cerezada",
+            "nomb:":"Cerezada",
             "img":"imgP/cereza.jpg"
         },
         {
-            "titulo:":"Coco",
+            "nomb:":"Coco",
             "img":"imgP/coco.jpg"
         },
         {
-            "titulo:":"Hierbabuena",
+            "nomb:":"Hierbabuena",
             "img":"imgP/buena.jpg"
         },
         {
-            "titulo:":"tropical",
+            "nomb:":"tropical",
             "img":"imgP/tropical.jpg"
         },
         {
-            "titulo:":"mango",
-            "img":"imgP/mango.gif"
+            "nomb:":"mango",
+            "imgb":"imgP/mango.jpg"
         },
         {
-            "titulo:":"lulo",
+            "nomb:":"lulo",
             "img":"imgP/lulo.jpg"
         }
-
     ]
 }
