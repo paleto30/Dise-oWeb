@@ -93,7 +93,7 @@
 .cd-team{
     border-radius: 10px;
     margin-bottom: 2rem;
-    box-shadow: initial -0.4em #343A40; 
+    border: 1px solid #343A40; 
 }
 .cd-service{
     border-radius: 10px;
@@ -130,6 +130,10 @@
 .iconos:hover{
     width: 45px;
     height: 45px;
+}
+
+.btnIn:hover{
+    background-color: #c3d5e0;
 }
 
  
