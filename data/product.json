@@ -1,0 +1,100 @@
+{
+    "food":[
+
+        {
+            "nom":"Pizza de carnes",
+            "img":"",
+            "ingred":"Carne molidad, chorizo, salami, queso"
+        },
+        {
+            "nom":"Pizza de mar",
+            "img":"",
+            "ingred":"Camarones,palmitos,cebolla roja, tocineta, oregano , queso"
+        },
+        {
+            "nom":"Piza vegetariana",
+            "img":"",
+            "ingred":"Zanahoria,zucchini, cebolla, pimenton, champiñones"
+        }
+        ,
+        {
+            "nom":"Piza Hawaiana",
+            "img":"",
+            "ingred":"Piña caramelizada, jamon ahumado, queso"
+        }
+        ,
+        {
+            "nom":"Piza Azteca",
+            "img":"",
+            "ingred":"carne molida,maiz, jalapeños,pimentonm, queso, nachos"
+        }
+        ,
+        {
+            "nom":"Piza Colombiana",
+            "img":"",
+            "ingred":"carne desmechada, maduro frito,maiz,chorizo, queso"
+        }
+        ,
+        {
+            "nom":"Piza pollo-jamon",
+            "img":"",
+            "ingred":"pollo, jamon ahumado, queso"
+        }
+        ,
+        {
+            "nom":"Piza Bocadillo",
+            "img":"",
+            "ingred":"queso, bocadillo, masa"
+        }
+        ,
+        {
+            "nom":"Sandwich de pollo",
+            "img":"",
+            "ingred":"lechuga, tomate, pan, salsa de la casa , pollo cremoso, jamon, queso"
+        }
+        ,
+        {
+            "nom":"lasaña mixta",
+            "img":"",
+            "ingred":"carne molida, pollo, chorizo, champiñones, queso"
+        }
+        ,
+        {
+            "nom":"Sandwich de de carne",
+            "img":"",
+            "ingred":"pan, carne , lechuga , tomate ,queso, jamon"
+        }
+    ],
+
+    "drink":[
+        {
+            "titulo:":"Jamaica",
+            "img":"imgP/jamaica.jpg"
+        },
+        {
+            "titulo:":"Cerezada",
+            "img":"imgP/cereza.jpg"
+        },
+        {
+            "titulo:":"Coco",
+            "img":"imgP/coco.jpg"
+        },
+        {
+            "titulo:":"Hierbabuena",
+            "img":"imgP/buena.jpg"
+        },
+        {
+            "titulo:":"tropical",
+            "img":"imgP/tropical.jpg"
+        },
+        {
+            "titulo:":"mango",
+            "img":"imgP/mango.gif"
+        },
+        {
+            "titulo:":"lulo",
+            "img":"imgP/lulo.jpg"
+        }
+
+    ]
+}

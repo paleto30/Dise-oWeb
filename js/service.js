@@ -19,12 +19,13 @@ const getService = async () =>{
             const {servicio, img, descripcion} = element;
             html +=`
 
-            <div class="col-12 col-md-6 text-center cards">
+            <div class="col-12 col-md-4 text-center cards">
                 <div class="card cd-service" style="width:500px">
                     <div class="card-body">
                         <h2 class="card-title">${servicio}</h2>
                         <p class="card-text mt-2">${descripcion}</p>
-                        <img class="card-img-bottom" src="${img}" alt="Card image" style="width:100%">            
+                        <img class="card-img-bottom" src="${img}" alt="Card image" style="width:100%">  
+                                  
                     </div>     
                 </div>
             </div>
