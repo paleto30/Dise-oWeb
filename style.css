@@ -106,6 +106,10 @@
     box-shadow:  -1px 1px 1px 1px rgba(0, 0, 0, 0.4) ;
 }
 
+.hh{
+    font-size: 67px;
+    color: #528ce2;
+}
 .h11{
     font-size: 67px;
     font-weight: bold;
@@ -186,6 +190,12 @@
         max-height: 340px;
         min-height: 340px;   
     }
+    .hh{
+        font-size: 40px;
+    }
+    .di-h{
+        height: 50px !important;
+    }
     
 
 }
@@ -244,6 +254,13 @@
     }
     .nn{
         font-size: large;
+    }
+
+    .hh{
+        font-size: 30px;
+    }
+    .di-h{
+        height: 40px!important;
     }
 }
 
